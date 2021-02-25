@@ -1,0 +1,35 @@
+.ui-btn-subscribe {
+  display: inline-flex;
+  cursor: pointer;
+  font-family: "Hind Guntur", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  .ui-btn-subscribe-name {
+    width: 159px;
+    height: 34px;
+    background: inherit;
+    background-color: #de6e06;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-btn-subscribe-count {
+    min-width: 92px;
+    padding: 5px 8px 3px;
+    border: solid 1px #eceff0;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #001655;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

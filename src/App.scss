@@ -1,0 +1,123 @@
+.container {
+    max-width: 1350px !important;
+}
+.content-wrapper {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 1000px !important;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 800px !important;
+    }
+}
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) {
+    .visible-only-xs {
+        display: none !important;
+    }
+}
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+#App {
+    margin-top: 82px;
+    position: relative;
+    .router-right-area {
+        display: flex;
+        position: relative;
+        background: #f6f6f6;
+        // padding-top: 15px;
+        position: fixed;
+        // z-index: 9999;
+        top: 104px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+        overflow: auto;
+        padding: 1rem 2.58rem;
+        // padding-left: 75px;
+        // padding-right: 75px;
+    }
+    .router-right-area::-webkit-scrollbar-track {
+        padding: 2px 0;
+    }
+
+    .router-right-area::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .router-right-area::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #908d8d;
+    }
+}
+
+// tooltip
+.custom-tooltip-design {
+    text-align: center;
+    .react-tooltip-lite {
+        z-index: 111111 !important;
+    }
+    .react-tooltip-lite-arrow {
+        z-index: 111111 !important;
+    }
+}
+.react-tooltip-lite {
+    // padding: 5px 10px !important;
+    background: #000000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 7px !important;
+    margin: 3px;
+    min-width: 50px;
+}
+
+.react-tooltip-lite-arrow {
+    // border-width: 5px !important;
+    margin: 3px;
+    border-color: #000000;
+
+    &.react-tooltip-lite-up-arrow {
+        border-left: 5px solid transparent !important;
+        border-right: 5px solid transparent !important;
+        border-top-width: 10px;
+        margin-left: 5px;
+    }
+
+    &.react-tooltip-lite-down-arrow {
+        border-left: 5px solid transparent !important;
+        border-right: 5px solid transparent !important;
+        border-bottom-width: 10px;
+        margin-left: 5px;
+    }
+
+    &.react-tooltip-lite-left-arrow {
+        border-top: 5px solid transparent !important;
+        border-bottom: 5px solid transparent !important;
+        border-left-width: 10px;
+        margin-top: 5px;
+    }
+
+    &.react-tooltip-lite-right-arrow {
+        border-top: 5px solid transparent !important;
+        border-bottom: 5px solid transparent !important;
+        border-right-width: 10px;
+        margin-top: 5px;
+    }
+}

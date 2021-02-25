@@ -1,0 +1,120 @@
+#playlistCard {
+  .playcard-main {
+    background: #ffffff;
+    .card-main-title-avata {
+      font-size: 16px;
+      color: #2e2e2e;
+      text-decoration: none;
+
+      &:hover {
+        color: #222;
+      }
+    }
+
+    .views-section {
+      .ratings {
+        color: #212529;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 10px;
+
+        .MuiSvgIcon-root {
+          color: #212529;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .image {
+      position: relative;
+      height: 220px;
+      display: flex;
+      justify-content: center;
+
+      .react-thumbnail-generator {
+        height: 0px !important;
+        width: 0px !important;
+        display: none !important;
+
+        img {
+          width: 0px !important;
+          height: 0px !important;
+          display: none !important;
+        }
+      }
+
+      .img1 {
+        position: absolute;
+        top: 10px;
+        border-top: 3px solid white;
+        z-index: 1;
+        width: 244px;
+        margin: 0 11px;
+      }
+
+      .img2 {
+        position: absolute;
+        top: 25px;
+        border-top: 3px solid white;
+        z-index: 2;
+        width: 255px;
+        margin: 0 5.5px;
+      }
+
+      .img3 {
+        border-top: 3px solid white;
+        position: absolute;
+        top: 40px;
+        width: 266px;
+        z-index: 3;
+      }
+    }
+  }
+  .card-content{
+   padding: 15px;
+  }
+
+  @media (max-width: 767px) {
+    .playcard-main {
+      .image {
+        height: 500px;
+
+        .img1 {
+          height: 455px !important;
+          width: 98% !important;
+        }
+
+        .img2 {
+          height: 455px !important;
+          width: 99% !important;
+        }
+
+        .img3 {
+          height: 455px !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .playcard-main {
+      .image {
+        height: 240px !important;
+
+        .img1 {
+          height: 200px !important;
+        }
+
+        .img2 {
+          height: 200px !important;
+        }
+
+        .img3 {
+          height: 200px !important;
+        }
+      }
+    }
+  }
+}

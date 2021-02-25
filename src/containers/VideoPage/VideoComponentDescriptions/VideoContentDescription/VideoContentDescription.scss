@@ -1,0 +1,44 @@
+#VideoContentDescription{
+    .video-description-content{
+    .video-description-showless {
+        position: relative;
+        border-top: solid 1px #eceff0;
+        margin: 35px 0 14px;
+        text-align: center;
+      }
+      .showless-btn {
+        color: #2e2e2e;
+        border: solid 1px #001655;
+        border-radius: 14px;
+        padding: 3px 12px 4px 12px;
+        background-color: #fbfdfe;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 1.2;
+        position: relative;
+        top: -14px;
+        &:hover {
+          color: #da0000;
+          border-color: #da0000;
+        }
+      }
+      .showless-mobile-btn {
+        font-size: 20px;
+        width: 80px;
+        height: 30px;
+        display: none;
+        background: #fff;
+        position: relative;
+        line-height: 0.9;
+        border: none;
+        top: -15px;
+        display: none;
+        .loadmore-icon {
+          transform: rotate(90deg);
+        }
+        &:hover {
+          color: #da0000;
+        }
+      }
+    }
+}

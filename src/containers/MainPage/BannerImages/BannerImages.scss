@@ -1,0 +1,90 @@
+#BannerImages {
+    margin-bottom: 1rem;
+    .banner-images {
+        .banner-image-main {
+            background: #f6f6f6;
+            padding: 15px 8px;
+            padding-bottom: 0px;
+            .carosel-design {
+                button, li {
+                    outline: none;
+                }
+                .carosel-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: none;
+                    border-radius: 0;
+                  
+                   
+                    .notify-icon{
+                        background: #f6f6f6;
+                        position: absolute;
+                        top: 0;
+                        right: 15px;
+                        border-radius: 0 0 50% 50%;
+                    }
+                }
+            }
+
+            // .banner-ad-area {
+            //     display: flex;
+
+            //     .video-add-view {
+            //         height: 300px;
+            //         width: 100%;
+            //         margin: 0 15px;
+            //         display: flex;
+
+            //         .video-component-front {
+            //             position: relative;
+            //             overflow: hidden;
+            //             height: 300px;
+            //             width: 100%;
+
+            //             .video-component-item {
+            //                 position: absolute;
+            //                 left: 0;
+            //                 top: 0;
+            //                 right: 0;
+            //                 bottom: 0;
+            //                 width: 100%;
+            //                 height: 100%;
+            //                 object-fit: cover;
+            //             }
+
+            //             .mejs__poster-img {
+            //                 width: 100% !important;
+            //                 height: auto !important;
+            //             }
+
+            //             .mejs__overlay {
+            //                 left: 50%;
+            //                 top: 50%;
+            //                 transform: translate(-50%, -50%);
+            //             }
+
+            //             .mejs__overlay-button {
+            //                 display: none;
+            //             }
+            //         }
+            //     }
+
+            //     .banner-add-view {
+            //         width: 100%;
+            //         margin: 0 15px;
+            //         background-color: #d7d7d7;
+            //         display: flex;
+            //         align-items: center;
+            //         justify-content: center;
+            //         font-size: 32px;
+            //         font-weight: bold;
+            //     }
+
+            // }
+        }
+
+    }
+
+    @media (max-width: 767px) {}
+}

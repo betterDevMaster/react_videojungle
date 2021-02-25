@@ -1,0 +1,82 @@
+#BlogPost {
+  //.MuiToolbar-root {
+  //  background: #e0e0e0;
+  //}
+
+  .body-rigth {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+
+    .body-main {
+      //max-width: 90%;
+      //width: 986px;
+
+      .body-title {
+        display: flex;
+        align-items: baseline;
+
+        .icon {
+        }
+
+        .title {
+          margin-left: 15px;
+        }
+      }
+
+      .body-details {
+        margin-top: 25px;
+
+        .body-details-paper {
+          .details-header {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .heder-user-info {
+              display: flex;
+              align-items: center;
+            }
+
+            .heder-user-time {
+            }
+          }
+
+          .details-body {
+            padding: 15px;
+            padding-top: 0;
+
+            .details-body-info {
+              padding: 0;
+            }
+
+            .details-icon-action {
+              display: flex;
+              justify-content: space-between;
+              padding-top: 15px;
+
+              .left-icon-action {
+              }
+
+              .right-icon-action {
+                .icon-and-info-btn {
+                  margin: 0 7px;
+                  font-size: 14px;
+                  background: #2e1843;
+                  color: #fff;
+
+                  .icons {
+                    font-size: 18px;
+                    margin-right: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

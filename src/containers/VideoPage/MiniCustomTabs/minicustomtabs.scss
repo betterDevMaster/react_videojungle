@@ -1,0 +1,43 @@
+.mini-custom-tabs-mobile {
+  .mini-custom-tabs-header {
+    display: none;
+  }
+}
+
+.mini-custom-tabs-header {
+  display: flex;
+  margin-bottom: 30px;
+  .mini-custom-tab {
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4px 0 16px;
+    border-bottom: 2px solid #eceff0;
+    cursor: pointer;
+    display: flex;
+    color: #637076;
+    &:hover,
+    &.active {
+      color: #da0000;
+      border-bottom: 2px solid #da0000;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mini-custom-tabs-mobile {
+    .mini-custom-tabs-header {
+      display: flex;
+    }
+    .videosidebar-caption {
+      display: none !important;
+    }
+    .mini-custom-tab-container {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+}

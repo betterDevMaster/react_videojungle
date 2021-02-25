@@ -1,0 +1,47 @@
+.channels-bar {
+  .container {
+    border-bottom: solid 1px #eceff0;
+    .tabs {
+      a {
+        text-decoration: none !important;
+      }
+      button {
+        font-family: "Hind Guntur", sans-serif;
+        font-size: 14px;
+        color: #001655;
+        text-transform: capitalize;
+        outline: none;
+      }
+    }
+    .search {
+      .MuiFormControl-root {
+        .MuiInputBase-root {
+          border-radius: 20px;
+          border: 2px solid #eceff0;
+          .MuiInputBase-input {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .channels-bar {
+    .container {
+      :nth-child(4) {
+        display: none;
+      }
+      :nth-child(5) {
+        display: none;
+      }
+      :nth-child(3) {
+        display: none;
+      }
+    }
+    .search {
+      display: none;
+    }
+  }
+}

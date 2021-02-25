@@ -1,0 +1,177 @@
+.channel-main {
+  background-color: #eee;
+  .banner-main {
+    .banner {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding-left: 70px;
+      .text {
+        h2 {
+          font-weight: 600;
+        }
+      }
+    }
+    .nav-section {
+      margin-top: -72px;
+      .nav {
+        .upper {
+          .social {
+            background-color: rgba(54, 54, 54, 0.7);
+            p {
+              color: white;
+              font-weight: 500;
+            }
+            div {
+              .MuiSvgIcon-root {
+                color: white;
+                background-color: transparent;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        .lower {
+          border-bottom: solid 1px #eceff0;
+          .title {
+            h4 {
+              color: rgb(46, 46, 46);
+              font-weight: 500;
+              font-size: 17px;
+            }
+            .MuiSvgIcon-root {
+              color: #4d86fe;
+              background-color: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+        .tabs {
+          button {
+            color: black;
+            text-transform: capitalize;
+            outline: none;
+          }
+        }
+        // .subscribers-main {
+        //   font-size: 15px;
+        //   height: 35px;
+        //   .subscribers {
+        //     border-top-left-radius: 3px;
+        //     border-bottom-left-radius: 3px;
+        //     background-color: rgb(234, 44, 90);
+        //     color: rgb(255, 255, 255);
+
+        //     border-width: 1px;
+        //     border-style: solid;
+        //     border-color: rgb(234, 44, 90);
+        //     text-align: center;
+        //   }
+        //   .count {
+        //     border-top-right-radius: 3px;
+        //     border-bottom-right-radius: 3px;
+        //     color: rgb(126, 126, 126);
+        //     padding: 5px 10px 0px;
+
+        //     border-width: 1px 1px 1px;
+        //     border-style: solid solid solid none;
+        //     border-color: rgb(236, 239, 240) rgb(236, 239, 240)
+        //       rgb(236, 239, 240);
+        //     text-align: center;
+        //   }
+        // }
+      }
+    }
+  }
+  .avatar-block {
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 4px solid #fff;
+    .avatar-img {
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .MuiGrid-root{
+    padding: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .channel-main {
+    .banner-main {
+      .banner {
+        width: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .nav-section {
+        .nav {
+          .upper {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .channel-main {
+    .banner-main {
+      .banner {
+        height: 140px;
+      }
+      .nav-section {
+        // .avatar {
+        //   width: 80px;
+        //   margin-bottom: 30px;
+        //   img {
+        //     width: 100%;
+        //   }
+        // }
+        .nav {
+          .lower {
+            .tabs {
+              margin-top: 10px;
+              padding-left: 5px !important;
+              :nth-child(6) {
+                display: none !important;
+              }
+              :nth-child(3) {
+                display: none !important;
+              }
+              :nth-child(4) {
+                display: none !important;
+              }
+              :nth-child(5) {
+                display: none !important;
+              }
+            }
+          }
+          // .subscribers-main {
+          //   display: none !important;
+          // }
+        }
+      }
+    }
+    .avatar-block {
+      height: 60px;
+      width: 60px;
+      margin-bottom: 30px;
+      border: 2px solid #fff;
+      .avatar-img {
+        max-height: 130%;
+      }
+    }
+  }
+}

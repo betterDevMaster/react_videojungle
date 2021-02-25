@@ -1,0 +1,27 @@
+.categories-bar {
+  .container {
+    div {
+      border-bottom: solid 1px #eceff0;
+    }
+    button {
+      font-family: "Hind Guntur", sans-serif;
+      font-size: 14px;
+      color: #001655;
+      text-transform: capitalize;
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .categories-bar {
+    .container {
+      :nth-child(4) {
+        display: none;
+      }
+      :nth-child(5) {
+        display: none;
+      }
+    }
+  }
+}

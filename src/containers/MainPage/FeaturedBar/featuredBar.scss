@@ -1,0 +1,54 @@
+#featuredBar {
+  background: #f6f6f6;
+  z-index: 1;
+ 
+  .main {
+    border-top: 1px solid rgb(236, 239, 240);
+
+    // margin: 0 15px;
+    .MuiButton-root {
+      outline: none;
+    }
+
+    .nav-buttons {
+      // padding-left: 7px;
+      .underline-magical {
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+
+        &:hover {
+          background-size: 100% 88%;
+        }
+      }
+
+      button {
+        text-transform: none;
+        font-size: 16px;
+        font-weight: 400;
+        outline: none;
+        border: none;
+        background: transparent;
+        color: black;
+        margin: 0 7px;
+        min-width: 60px;
+        &.active ,&:hover{
+          background: #da0000;
+          color: #ffff;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main {
+      .nav-buttons {
+        :nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+}

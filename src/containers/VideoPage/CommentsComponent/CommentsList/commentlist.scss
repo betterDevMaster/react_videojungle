@@ -1,0 +1,212 @@
+.comment-block {
+  display: flex;
+  line-height: 1.4;
+  margin-bottom: 45px;
+  .comment-info-container {
+    flex-grow: 1;
+    position: relative;
+  }
+  .comment-avatar-container {
+    flex-basis: 90px;
+  }
+  .comment-avatar {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+    display: block;
+  }
+  .comment-avatar-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    max-width: 130%;
+    min-height: 100%;
+    max-height: 130%;
+  }
+  .comment-person {
+    color: #da0000;
+    font-size: 16px;
+    margin-right: 2px;
+  }
+  .comment-info {
+    color: #8e9ea6;
+    font-size: 15px;
+    padding-right: 35px;
+  }
+  .comment-text {
+    padding: 6px 0;
+  }
+  .comment-estimate {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .comment-like {
+    color: #da0000;
+    font-size: 15px;
+    .comment-circle {
+      border: 2px solid #da0000;
+      color: #da0000;
+    }
+    &:hover {
+      .comment-circle {
+        background-color: #da0000;
+      }
+    }
+  }
+  .comment-dislike {
+    color: #001655;
+    font-size: 15px;
+    .comment-circle {
+      border: 2px solid #001655;
+      color: #001655;
+    }
+    &:hover {
+      .comment-circle {
+        background-color: #001655;
+      }
+    }
+  }
+  .comment-circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+  .comment-reply-btn {
+    cursor: pointer;
+    color: #8e9ea6;
+    font-size: 16px;
+    &:hover {
+      color: #8e9ea6;
+      text-decoration: underline;
+    }
+  }
+  .comment-short-info {
+    color: #8e9ea6;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .comment-view-btn {
+    color: #001655;
+    font-size: 16px;
+    position: relative;
+    padding-right: 12px;
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
+      color: #001655;
+      text-decoration: underline;
+    }
+    &:before {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 6px;
+      background: #001655;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 3px;
+      top: 12px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 6px;
+      background: #001655;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: 0;
+      top: 12px;
+    }
+  }
+  .comment-flag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    .flag-link {
+      color: #212529;
+      cursor: pointer;
+      &:hover {
+        color: #da0000;
+      }
+    }
+  }
+}
+.comment-replies-container {
+  padding-left: 90px;
+}
+.comments-loadmore-container {
+  text-align: center;
+  margin-bottom: 15px;
+  .loadmore-btn {
+    background-color: #eceff0;
+    color: #2e2e2e;
+    padding: 15px 65px;
+    border: 1px solid #eceff0;
+    height: 48px;
+    border-radius: 24px;
+    font-weight: normal;
+    line-height: 1.1;
+    font-size: 16px;
+    &:hover {
+      color: #da0000;
+      background-color: #fff;
+      border: solid 1px #da0000;
+    }
+  }
+  .loadmore-mobile-btn {
+    font-size: 20px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    line-height: 0.9;
+    border: none;
+    top: -15px;
+    display: none;
+    .loadmore-icon {
+      transform: rotate(90deg);
+    }
+    &:hover {
+      color: #da0000;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comment-block {
+    margin-bottom: 25px;
+    .comment-avatar-container {
+      flex-basis: 65px;
+      min-width: 65px;
+    }
+    .comment-avatar {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .comments-loadmore-container {
+    border-top: solid 1px #eceff0;
+    .loadmore-mobile-btn {
+      display: inline-block;
+    }
+  }
+  .comment-replies-container {
+    padding-left: 65px;
+  }
+}

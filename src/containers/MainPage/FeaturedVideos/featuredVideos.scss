@@ -1,0 +1,22 @@
+#featuredVideos {
+  position: relative;
+  height: 100%;
+  .feature-main {
+    background: #f6f6f6;
+    padding: 0 8px;
+    padding-bottom: 15px;
+    .cards-main {
+      // margin: 0 -15px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      .cards {
+        .only-desk {
+          display: none;
+        }
+      }
+    }
+  }
+}

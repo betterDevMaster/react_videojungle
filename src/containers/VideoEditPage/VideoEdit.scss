@@ -1,0 +1,151 @@
+.edit-main {
+  .container {
+    .upload-details {
+      .progress-main {
+        .img {
+          background-color: #8781bd;
+          border-radius: 3px;
+          height: 113px;
+        }
+        .data {
+          h5 {
+            color: #2e2e2e;
+            font-family: "Hind", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 0;
+          }
+          p {
+            color: #001655;
+          }
+        }
+      }
+    }
+  }
+  .details-section {
+    border-top: solid 1px #eceff0;
+    .container {
+      .file-info-title{
+        width: 100%;
+        margin: 17px 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid grey;
+        p{
+          font-weight: bold;
+        }
+      }
+      .title {
+        .MuiFormControl-root {
+          .MuiInputBase-root {
+            input {
+              padding: 13.5px 14px;
+            }
+          }
+        }
+      }
+      .about {
+        textarea {
+          width: 100%;
+          padding: 5px 14px;
+          border-radius: 3px;
+          border: solid 1px #e0e1e2;
+        }
+      }
+      .video-questions {
+        input {
+          padding: 13.5px 14px;
+        }
+        button {
+          background-color: #252424;
+          color: white;
+          margin-left: 15px;
+        }
+        .upload-thumbnail-input{
+          position: absolute;
+          opacity: 0;
+        }
+      }
+      .youtube {
+        .channelid {
+          margin-left: 15px;
+          input {
+            padding: 13.5px 14px;
+          }
+        }
+      }
+      .settings-section {
+        div {
+          .MuiFormControl-root {
+            .MuiInputBase-root {
+              select {
+                padding: 13.5px 14px;
+              }
+            }
+          }
+        }
+      }
+      .save {
+        button {
+          background-color: #333;
+          color: #fff;
+          padding: 0 65px;
+          border: solid 1px #333;
+          height: 48px;
+          font-weight: 500;
+          outline: none;
+        }
+      }
+      .terms {
+        font-size: 16px;
+        text-align: center;
+        color: #001655;
+        .terms-text {
+          color: #da0000;
+        }
+      }
+    }
+  }
+  .upload-title {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.5px;
+    line-height: 1.2;
+  }
+  .cancel-upload-btn-container {
+    text-align: right;
+  }
+
+  #author-information{
+    .title{
+      width: 100%;
+      margin: 17px 0;
+      padding-bottom: 15px;
+      border-bottom: 1px solid grey;
+      p{
+        font-weight: bold;
+      }
+    }
+
+    .MuiInputBase-formControl{
+      input{
+        padding: 13.5px 14px;
+      }
+    }
+
+    .checkbox-description{
+      line-height: 43px;
+      color: green;
+      /* font-size: 14px; */
+      margin: 0 0 0 15px;
+    }
+
+    .MuiFormControlLabel-labelPlacementStart{
+      margin-left: 0;
+    }
+
+  }
+}
+.Mui-focused {
+  outline: 0 !important;
+  border: 0 !important;
+}

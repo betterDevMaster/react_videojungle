@@ -1,0 +1,31 @@
+#question-answer {
+  padding: 10px;
+  .main-heading {
+    font-size: 25px;
+  }
+  .questions-main {
+    border-bottom: 1px solid #d5d5dd;
+    padding: 0px 5px 30px 5px;
+    margin-bottom: 30px;
+    .question {
+      h3 {
+        font-size: 20px;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+    .answer {
+      height: 50px;
+      padding: 0px 5px;
+      display: flex;
+      align-items: center;
+      vertical-align: middle;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

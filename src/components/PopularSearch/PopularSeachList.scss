@@ -1,0 +1,46 @@
+#PopularSeachList {
+  position: fixed;
+  top: 70px;
+  z-index: 9999;
+  background: #000;
+  left: 0;
+  right: 0;
+  .search-list-main {
+    .list-data {
+      margin: 0 20px;
+      position: relative;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      align-items: center;
+      height: 35px;
+    }
+
+    .item {
+      color: #eeeeee;
+      padding: 0 30px;
+      font-size: 16px;
+      &:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+
+    .upload-button {
+      width: 35px;
+      height: 35px;
+      border-radius: 0%;
+      border: solid 1px #da0000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #da0000;
+      color: #fff;
+      text-align: center;
+      margin: -10px auto;
+      .MuiSvgIcon-root{
+        font-size: 18px;
+      }
+    }
+  }
+}

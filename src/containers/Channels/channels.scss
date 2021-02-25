@@ -1,0 +1,17 @@
+
+
+.channels-main {
+  .expansion-bar {
+    border-top: solid 1px #eceff0;
+    :nth-child(2) {
+      z-index: 5;
+      margin-top: -15px;
+      background-color: white;
+      .MuiSvgIcon-root {
+        color: #001655;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+#FileCard {
+
+  .cat-card-main {
+    background: #ffffff;
+    h2 {
+      color: #2e2e2e;
+      font-size: 16px;
+    }
+
+    p {
+      color: #001655;
+      font-size: 15px;
+    }
+
+    img {
+      width: 100%;
+      padding-top: 15px;
+    }
+
+    .data {
+      padding: 15px;
+      .name {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #000000;
+      }
+
+      .discription {
+        font-size: 14px;
+
+        color: #636c73;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cat-card-main {
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.footer-main {
+  border-top: solid 1px #eceff0;
+  background-color: #3b3939;
+  .footer-mobile {
+    display: none !important;
+  }
+  .container {
+    .footer-left {
+      .navigations {
+        ul {
+          list-style-type: none;
+
+          li {
+            margin-right: 20px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+        .upper {
+          border-bottom: solid 1px #eceff0;
+        }
+      }
+    }
+    .footer-right {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        li {
+          margin-right: 20px;
+          color: white;
+          padding: 6px 0px;
+        }
+      }
+    }
+    .MuiButton-text {
+      color: white;
+      outline: none;
+    }
+  }
+  .footer-mobile {
+    div {
+      p {
+        margin-bottom: 0 !important;
+        font-size: 20px;
+        color: #da0000;
+        font-weight: bold;
+      }
+    }
+    ul {
+      list-style-type: none;
+      margin-bottom: 0 !important;
+      li {
+        margin-right: 20px;
+        color: white;
+      }
+    }
+    .icons {
+      border-top: solid 1px #eceff0;
+      border-bottom: solid 1px #eceff0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer-main {
+    .footer-desktop {
+      display: none !important;
+    }
+    .footer-mobile {
+      display: flex !important;
+    }
+  }
+}

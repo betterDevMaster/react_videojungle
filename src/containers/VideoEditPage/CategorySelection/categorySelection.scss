@@ -1,0 +1,52 @@
+.container {
+  .desktop-categories {
+    .MuiFormControl-root {
+      margin-left: 0;
+
+      .MuiFormGroup-root {
+        div {
+          .MuiFormControlLabel-root {
+            margin: 0;
+            .Mui-checked {
+              .MuiIconButton-label {
+                .MuiSvgIcon-root {
+                }
+              }
+            }
+            .MuiTypography-root {
+              color: #001655;
+            }
+            .MuiButtonBase-root {
+              padding: 7px 9px;
+              padding-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .MuiFormControl-root {
+    width: 100% !important;
+    .MuiFormGroup-root {
+      flex-direction: row !important;
+    }
+    .MuiOutlinedInput-root {
+      :active {
+        outline: 1px solid lightblue;
+      }
+    }
+  }
+  .mobile-categories {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    .desktop-categories {
+      display: none;
+    }
+    .mobile-categories {
+      display: block;
+    }
+  }
+}

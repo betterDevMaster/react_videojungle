@@ -1,0 +1,21 @@
+.video-component {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  .video-component-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .mejs__poster-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .mejs__overlay {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

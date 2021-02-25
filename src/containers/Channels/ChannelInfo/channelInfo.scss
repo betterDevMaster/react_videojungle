@@ -1,0 +1,44 @@
+.card-main {
+    .card-main-img {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    .card-main-title {
+      color: #2e2e2e;
+      font-weight: 400;
+      font-size:16px;
+    }
+    .card-main-title-avata {
+      font-size: 15px;
+      color: #2e2e2e;
+      text-decoration: none;
+      &:hover {
+        color: #222;
+      }
+    }
+  
+    .card-main-title-link {
+      font-size: 15px;
+      color: #2e2e2e;
+      text-decoration: none;
+      &:hover {
+        color: #222;
+      }
+    }
+    .views-section {
+      .views {
+        font-size:13px;
+      }
+      .ratings {
+        color: #2e2e2e;
+        font-size: 13px;
+        font-weight: 400;
+        .MuiSvgIcon-root {
+          color: #da0000;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  

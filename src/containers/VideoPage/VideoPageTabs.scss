@@ -1,0 +1,26 @@
+#VideoPageTabs {
+    .content-wrapper {
+        padding-top: 5rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.chatContent {
+    height: 460px;
+    overflow: auto;
+}
+
+.chatContent::-webkit-scrollbar-track {
+    padding: 2px 0;
+}
+
+.chatContent::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chatContent::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #908d8d;
+}

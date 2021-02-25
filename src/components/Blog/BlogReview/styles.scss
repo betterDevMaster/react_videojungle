@@ -1,0 +1,185 @@
+#BlogReview {
+  .blog-review-main {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+
+    .review-left {
+      display: table-cell;
+      width: 120px;
+      padding: 20px 0;
+      text-align: center;
+      cursor: default;
+
+      .left-title {
+        font-size: 12px;
+        color: #808991;
+        font-weight: 600;
+      }
+
+      .left-ratting-div {
+        .MuiRating-root {
+          .MuiRating-label {
+            color: #ee6e2f;
+            font-size: 18px;
+          }
+        }
+
+        .ratting-score {
+          display: block;
+          font-size: 35px;
+          color: #212529;
+          font-weight: 700;
+        }
+      }
+
+      .ratting-info {
+        padding-right: 10px;
+
+        .ratting-list {
+          display: flex;
+          align-items: center;
+
+          .MuiSvgIcon-root {
+            color: #718392;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+          }
+
+          .ratting-number {
+            padding: 0 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #718392;
+          }
+
+          .MuiLinearProgress-root {
+            background-color: #e8edf3;
+            height: 7px;
+            width: 100%;
+
+            .MuiLinearProgress-bar {
+              background: linear-gradient(#9daab5, #718392) !important;
+            }
+          }
+        }
+      }
+
+      .total-rate {
+        margin: 0 auto;
+        padding-top: 8px;
+        border-top: 1px solid #e5e5e5;
+        font-size: 12px;
+        color: #94a2b8;
+        letter-spacing: -0.03em;
+        margin-right: 8px;
+      }
+    }
+
+    .review-right {
+      text-align: center;
+      display: table-cell;
+      vertical-align: top;
+
+      .review-heading {
+        font-size: 18px;
+        color: #999;
+        font-weight: 700;
+        padding-top: 10px;
+        letter-spacing: -0.03em;
+      }
+
+      .right-ratting-div {
+        padding-bottom: 20px;
+
+        .MuiRating-root {
+          .MuiRating-label {
+            color: #ee6e2f;
+            font-size: 50px;
+          }
+        }
+      }
+
+      .review-text-area {
+        margin-bottom: 15px;
+        textarea {
+          border: 2px solid #d1d5d9;
+          border-radius: 5px;
+          box-sizing: border-box;
+          width: 100%;
+          min-height: 112px;
+          font-weight: 700;
+          font-size: 13px;
+          letter-spacing: -0.03em;
+          padding: 12px 15px;
+          line-height: 1.5em;
+          color: #717375;
+          -webkit-appearance: none;
+          resize: vertical;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .bottom-div {
+        display: flex;
+        justify-content: space-between;
+
+        .MuiButtonBase-root {
+          display: flex;
+          //align-items: baseline;
+
+          .MuiButton-label {
+            color: #808991;
+            font-weight: bold;
+          }
+
+          .MuiSvgIcon-root {
+            margin-right: 3px;
+          }
+        }
+
+        .bottom-left {
+        }
+
+        .bottom-right {
+          label{
+            margin-bottom: 0
+          }
+          display: flex;
+
+          .checkbox-style {
+            .MuiRadio-root,
+            .MuiCheckbox-root {
+              color: #636c73 !important;
+              padding: 0;
+
+              &.Mui-checked {
+                color: #1f8ce6 !important;
+              }
+            }
+
+            .MuiFormControlLabel-label {
+              font-size: 13px;
+              font-weight: 700;
+              height: 18px;
+              color: #636c73;
+            }
+          }
+
+          .right-buttom-style {
+            background: #1f8ce6;
+            border: 1px solid #0077d9;
+
+            .MuiButton-label {
+              color: #fff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

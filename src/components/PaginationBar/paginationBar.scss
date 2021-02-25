@@ -1,0 +1,50 @@
+#paginationBar{
+.pagination-bar-main{
+  width: 100%;
+  text-align: center;
+  background: #f6f6f6;
+  padding: 15px;
+}
+.pagination {
+  button {
+    border-radius: 30px;
+    background-color: #eceff0;
+    min-width: 70px;
+    height: 62px;
+    color: #001655;
+    .MuiSvgIcon-root {
+      color: #001655;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+}
+.pagination-main {
+  .pagination-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .pagination-main {
+    .pagination {
+      display: none !important;
+    }
+    .pagination-mobile {
+      display: flex !important;
+      button {
+        border-radius: 30px;
+        background-color: #eceff0;
+        min-width: 70px;
+        height: 62px;
+        color: #001655;
+        .MuiSvgIcon-root {
+          color: #001655;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+}

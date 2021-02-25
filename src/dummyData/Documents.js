@@ -1,0 +1,148 @@
+export const DocFiles = [
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+];
+export const PdfFiles = [
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 4,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 3.5,
+  },
+  {
+    id: 1,
+    name: "[웹툰] 어느 날 공주가 되어버렸다",
+    description: "플루토스",
+    rating: 5,
+  },
+];
